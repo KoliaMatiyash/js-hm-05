@@ -28,7 +28,6 @@ function addItem(inventory, newItem) {
   }
   if (!itemExists) {
     inventory.items.push(newItem);
-    console.log(newItem);
   }
 
   calculateTotalValue(inventory);
